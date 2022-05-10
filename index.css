@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+body {
+  background-image: url(./assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  color: white;
+  font-family: 'Audiowide', monospace;
+  text-transform: uppercase;
+  margin-top: 1.5%;
+}
+
+.container img {
+  max-width: 300px;
+  margin-top: 3%;
+}
+
+.escolhaData {
+  width: 80%;
+  background-color: #1B2344;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.escolhaData p {
+  color: white;
+  font-family: 'Comfortaa', monospace;
+}
+
+.escolhaData input {
+  font-family: 'Comfortaa', monospace;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 16px;
+}
+
+.escolhaData button {
+  color: black;
+  background-color: #FFEA8C;
+  border: 0px solid black;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  margin: 1% 0 2%;
+  padding: 8px 16px;
+}
+
+.escolhaData button:hover {
+  color: black;
+  background-color: white;
+  transition-duration: 0.5s;
+  transition-property: background-color, color;
+}
+
+#apodTitulo {
+  color: #FFEA8C;
+  font-family: 'Audiowide', monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  gap: 3%;
+}
+
+#apodTxt {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 1%;
+  font-size: 15px;
+  font-weight: 300;
+  color: #B6C2DD;
+  text-align: center;
+  line-height: 1.5;
+  text-align: left;
+  width: 90%;
+}
+
+#apodImg {
+  margin: 2% 0;
+}
+
+#apodImg img {
+  max-width: 80%;
+  border-radius: 10px;
+  border: 1px solid white;
+}
